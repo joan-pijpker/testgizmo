@@ -1,7 +1,8 @@
-import gizmo
+#import gizmo
 
-def hello(name, country = finland):
-  print("Hello {name}, how are things in {country}?")
+def hello(fname, country = "finland"):
+  print("Hello " + fname + " How are things in " + country + "?")
 
-gizmo.hello(joan, germany)
-gizmo.hello(joan)
+hello("Emil","germany")
+hello("Tobias","Netherlands")
+hello("Linus")
